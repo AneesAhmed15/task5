@@ -779,6 +779,7 @@ a {
     .topp {
         width: 100%;
         text-align: center;
+        margin-left: 15px;
        }
     .mainn{
         width: 80%;
@@ -817,11 +818,12 @@ a {
       
     }
     .main6 p{
-        text-align: center;
+        text-align: left;
        align-items: center;
         margin: 0;
         padding: 0;
         padding-right: 3px;
+        margin-left: 15px;
     }
     .right6 {
         width: 100%;
