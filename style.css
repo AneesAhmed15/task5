@@ -360,6 +360,7 @@ textarea::placeholder {
     margin-left: 3.7500rem;
     margin-right: 1.8750rem;
     margin-top: 1.8750rem;
+    margin-bottom: 14px;
 }
 
 .para p {
@@ -374,7 +375,7 @@ textarea::placeholder {
     background-color: brown;
     color: white;
     border: none;
-    margin-right: 1.5625rem;
+    margin-right:0;
     font-size: 1.2500rem;
     font-weight: bold;
 }
@@ -1067,7 +1068,7 @@ a {
         justify-content: center;
     }
     .left6 {
-        margin-left: 0;
+        margin-left: 35px;
         width: 40%;
     }
     .main6{
@@ -1113,9 +1114,27 @@ a {
     width: 47%;
 }
 .last{
+    width: 97%;
     display: flex;
     margin: 10px;
     justify-content: space-between;
+}
+.btn5 button {
+    margin-right: 0;
+}
+.para{
+    width: 35%;
+    padding-left: 15px;
+    
+
+    
+}
+.btn5{
+    width: 65%;
+}
+.btn5 button{
+    width: 100%;
+    
 }
 
 
@@ -1238,8 +1257,9 @@ a {
         justify-content: center;
     }
     .left6 {
-        margin-left: 0;
+        margin-left: 35px;
         width: 30%;
+
     }
     .main6{
         width:40% ;
