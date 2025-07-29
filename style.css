@@ -296,7 +296,6 @@ h1 {
 
 .ccc {
     width: 7.8125rem;
-    
     margin-bottom: 0.9375rem;
 }
 
@@ -671,7 +670,7 @@ a {
 .right1{
     width: 100%;
     padding-right: 0;
-    border-bottom: 2px solid gray;
+   
 }
 .imgg{
     margin-right: 0;
@@ -959,19 +958,23 @@ a {
     }
     /* second */
     .second{
-        display: flex;
+        display: grid;
         width: 100%;
+        grid-template-columns: 1fr 1fr;
     }
 
     .left1{
-        width: 30%;
+        width: 100%;
         margin-left: 0;
         padding-left: 20px;
         padding-bottom: 0;
+        grid-column: 1;
+        margin-top: 0;
     }
     .main1{
-        width: 40%;
+        width: 100%;
         margin-bottom: 0;
+        margin-top: 36px;
 
     }
     .main-top{
@@ -1002,7 +1005,7 @@ a {
     }     
     
     .imggs img {
-        width: 75%;
+       
        
         padding-right: 0;
         text-align: center;
@@ -1010,13 +1013,20 @@ a {
     }
     
     .right1{
-        width: 30%;
+        width: 100%;
+        grid-column: 1/span 2;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     .heading{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .hed {
+  padding-left: 20px;
     }
     .para{
         width: 50%;
@@ -1028,28 +1038,25 @@ a {
     
     h3{
         font-size: 3vh;
+        padding-left: 20px;
     }
     
 .line2{
-    padding: 0;
+   align-items: center;
 }
 .right1{
     padding-right: 0;
     margin-left: 0;
     padding-left: 0px;
+    width: 93%;
 }
 .imgg{
     width: 100%;
     margin-right: 0;
+    justify-content: center;
 }
-.qqq{
-    width: 30%;
-    height: auto;
-}
-.ccc{
-    width: 30%;
-    height: auto;
-}
+
+
 .AREA{
     width: 100%;
     padding: 0;
@@ -1058,28 +1065,44 @@ a {
 }
 .AREA h1{
     width: 100%;
-    font-size: 3.5vh
+    font-size: 3.5vh;
+    text-align: center;
+}
+.AREA p{
+    text-align: center;
+    align-items: center;
+
 }
 .third {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
         
         width: 100%;
         text-align: center;
         justify-content: center;
+        margin-top: 0;
     }
     .left6 {
         margin-left: 35px;
-        width: 40%;
+        width: 70%;
+        margin-top:30px;
     }
     .main6{
-        width:40% ;
+        grid-row: 1;
+        grid-column: 1/span 2;
+        width:90% ;
+        
+        margin: 1rem auto;
     }
     .right6{
-        width: 20%;
+        width: 75%;
+       margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 0;
+        margin-bottom: 35px;
     }
-    .btn{
-        margin-right: 10px;
-    }
+    
     .right64 img{
         margin-left: 10px;
     }
