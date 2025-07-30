@@ -110,6 +110,9 @@ form {
     margin-left: 1.8750rem;
     margin-top: 0.5000rem;
 }
+input{
+    margin-left: 11px;
+}
 
 label {
     font-weight: 700;
@@ -225,6 +228,9 @@ button {
     width: 8.7500rem;
     height: 2.0000rem;
     margin-bottom: 1.5625rem;
+}
+.btn5{
+    margin-right: 6rem;
 }
 
 p {
@@ -599,8 +605,7 @@ a {
     }
 
     .before-form {
-        flex-direction: column;
-        justify-content: center;
+        width: 100%;
         align-items: center;
         gap: 0;
     }
@@ -610,20 +615,35 @@ a {
         text-align: center;
         align-items: center;
     }
+   label{
+        width: 100%;
+       
+    }
 
     .form1 form {
         margin: 0;
         padding: 0;
     }
+    .form1{
+        width: 50%;
+    }
+    
 
     .before-form img {
         margin-right: 0;
         margin-bottom: 1.5rem;
+        width: 37%;
+        margin-left: 0;
+    }
+    input{
+        width: 100%;
+       
+        margin-left: 0;
     }
 
     textarea {
         width: 86%;
-        margin-left: 0;
+        margin-left: 10px;
     }
 
     .last {
@@ -633,18 +653,28 @@ a {
         margin-left: 0;
         margin-right: 0;
     }
-    .para p{
-        text-align: justify;
-    }
+   
 
     .btn5 button {
-        width: 90%;
+        width: 100%;
         margin-left: 10px;
+        font-size: 1rem;
 
+    }
+    .para p{
+        text-align: center;
+        width: 90%;
     }
 
     .para {
         margin-bottom: 10px;
+        width: 60%;
+    }
+    .imgs{
+        width: 40%;
+    }
+    .imgs img{
+        width: 45%;
     }
 
     .second {display: flex;
@@ -659,7 +689,13 @@ a {
         padding-left: 15px;
 
     }
-    
+    .line3{
+        width: 60%;
+        text-align: start;
+    }
+    .btn2 button {
+    margin-bottom: 0;
+    }
     
     .AREA h1{
         font-size: 25px;
@@ -676,8 +712,9 @@ a {
 }
 .imgg{
     margin-right: 0;
-    width: 90%;
-    padding-left: 15px;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
 }
 .main1{
     width: 100%;
@@ -692,26 +729,40 @@ a {
     padding: 0;
     display: flex;
     width: 100%;
+    margin-top: 17px;
+    margin-bottom: 15px;
    
 }
 .main-bottom{
     margin-left: 0;
 }
 .imggs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40%;
 }
-.imggs img{
-    width: 95%;
-    padding: 0;
-    text-align: center;
-    align-items: center;
+.imggs img {
+   padding-top: 0;
+    width: 90%;
 }
+.heading {
+    display: flex;
+  width: 100%;
+    align-items: center;
+    
+}
+
+    
+ 
+    
+
 .left1{
     width: 100%;
     
     margin: 0;
     padding: 0;
-    margin-bottom: 1.5rem;
+    
     border-bottom: 2px solid gray;
     
     padding-top: 20px;
@@ -721,7 +772,8 @@ a {
     margin-bottom: 1.5rem;
 }
 .line{
-    width: 230px;
+   
+    display: none;
 }
 .line1{
     display: none;
@@ -745,7 +797,12 @@ a {
 
 }
 .tex{
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    width: 60%;
+   
 }
 
     /* thirddd */
@@ -844,12 +901,28 @@ a {
     .line2{
    display: flex;
    justify-content: end;
-   align-items: anchor-center;
-    text-align: end;
+   align-items: center;
+    text-align: center;
    margin: 0;
         margin-left: 0;
         padding: 0;
-        width: 90%;
+        width: 60%;
+    }
+    .AREA h1{
+text-align: center;
+       
+      
+    }
+    .AREA p{
+        text-align: center;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .AREA button{
+      margin-top: 20px;
+    }
+    .AREA ,.line2{
+        width: 100%;
     }
     .line9{
         width: 200px;
