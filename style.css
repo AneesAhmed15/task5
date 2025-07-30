@@ -634,7 +634,7 @@ a {
         margin-right: 0;
     }
     .para p{
-        text-align: center;
+        text-align: justify;
     }
 
     .btn5 button {
@@ -656,6 +656,7 @@ a {
         margin: 0;
         padding: 0;
         width: 100%;
+        padding-left: 15px;
 
     }
     
@@ -670,12 +671,13 @@ a {
 .right1{
     width: 100%;
     padding-right: 0;
+    padding-left: 0;
    
 }
 .imgg{
     margin-right: 0;
     width: 90%;
-    padding-left: 0;
+    padding-left: 15px;
 }
 .main1{
     width: 100%;
@@ -690,7 +692,10 @@ a {
     padding: 0;
     display: flex;
     width: 100%;
-    padding-left: 20px;
+   
+}
+.main-bottom{
+    margin-left: 0;
 }
 .imggs{
     width: 40%;
@@ -708,7 +713,7 @@ a {
     padding: 0;
     margin-bottom: 1.5rem;
     border-bottom: 2px solid gray;
-    padding-left: 20px;
+    
     padding-top: 20px;
 }
 .line2{
@@ -829,7 +834,7 @@ a {
         margin-right: 0;
         margin-top: 25px;
         margin-left: 0;
-        padding-left: 8px;
+        padding-left: 15px;
     
         
     }
@@ -837,8 +842,11 @@ a {
         width: 90%;
     }
     .line2{
-
-  margin: 0;
+   display: flex;
+   justify-content: end;
+   align-items: anchor-center;
+    text-align: end;
+   margin: 0;
         margin-left: 0;
         padding: 0;
         width: 90%;
@@ -978,12 +986,12 @@ a {
 
     }
     .main-top{
-        width: 100%;
+        width: 90%;
         padding-left: 10px;
 
     }
     .main-bottom{
-        width: 100%;
+        width: 90%;
         margin-left: 10px;
     }
 .tex{
@@ -1184,15 +1192,17 @@ a {
         margin-bottom: 0;
 
     }
+
     .main-top{
         width: 100%;
         padding-left: 10px;
-
+      
     }
     .main-bottom{
         width: 100%;
-        margin-left: 10px;
-    }
+        padding-left: 10px;
+      margin-left: 0;
+ }
 .tex{
     width: 100%;
 }
